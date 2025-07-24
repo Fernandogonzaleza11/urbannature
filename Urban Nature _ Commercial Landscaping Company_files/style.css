@@ -1,0 +1,27 @@
+/*
+Theme Name: Memphis
+Theme URI: https://newurbanmedia.io
+Template: hello-elementor
+Author: New Urban Media
+Author URI: https://newurbanmedia.io
+Description: A custom child theme by New Urban Media
+Tags: flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 2.1.1633298365
+Updated: 2021-10-03 16:59:25
+
+*/
+
+/*Selected Text Hilight Colors*/
+::selection {
+  color: #fff !important;
+  background: #3574AD;
+}
+/*Selected Text Hilight Colors Firefox*/
+::-moz-selection {
+  color: #fff !important;
+  background: #3574AD;
+}
+/*Remove Lables in Rank Math Shortcodes*/
+.rank-math-contact-section label {
+	display: none !important;
+}
